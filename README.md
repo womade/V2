@@ -1,5 +1,5 @@
 ## V2H-DEV
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/womade/V2@dev.git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### V2H
 - [x] 支持vmess和vless两种协议
