@@ -17,7 +17,7 @@
     },
     "WS_PATH": {
       "description": "WebSocket 路径",
-      "value": "/online",
+      "value": "/yuanzheng",
       "required": true
     }
   },

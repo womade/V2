@@ -2,11 +2,11 @@
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### V2H
-- [x] 支持vmess和vless两种协议
-- [x] 支持自定义websocket路径
-- [x] 伪装首页（3D元素周期表）
-- [x] HTML5测速
-- [x] 使用v2ray最新版构建
+- [x] 支持 vmess 和 vless 两种协议
+- [x] 支持自定义 WebSocket 路径
+- [x] 伪装首页
+- [x] HTML5 测速
+- [x] 使用 v2 最新版构建
 
 请求`/`，返回3D元素周期表
 
@@ -22,8 +22,8 @@
 |  名称 | 值  | 说明  |
 | ------------ | ------------ | ------------ |
 |  PROTOCOL |  vmess<br>vless（可选） |  协议：nginx+vmess+ws+tls 或是 nginx+vless+ws+tls |
-|  UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid在线生成器") | 用户主ID  |
-|  WS_PATH | 默认为`/ray` |  路径，请勿使用`/speedtest`，`/`，`/test` 等已经被占用的请求路径 |
+|  UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid 在线生成器") | 用户主 ID  |
+|  WS_PATH | 默认为`/yuanzheng` |  路径，请勿使用`/speedtest`，`/`，`/test` 等已经被占用的请求路径 |
 
 ### 进阶
 [uptimerobot](https://uptimerobot.com/) 定时访问防止休眠
