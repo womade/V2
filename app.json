@@ -1,8 +1,8 @@
 {
-  "name": "V2H",
+  "name": "V2-DEV",
   "description": "中國遠徵",
   "keywords": [
-    "V2H"
+    "V2-DEV部署"
   ],
   "env": {
     "PROTOCOL": {
