@@ -1,0 +1,29 @@
+{
+  "name": "V2H",
+  "description": "中國遠徵",
+  "keywords": [
+    "V2H"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议 VMESS 或 VLESS",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "33652211-d4a4-4854-84e3-8065487f7755",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "WebSocket 路径",
+      "value": "/online",
+      "required": true
+    }
+  },
+  "website": "https://s.ssss.fun",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
